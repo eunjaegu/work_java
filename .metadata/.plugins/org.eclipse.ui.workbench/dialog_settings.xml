@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="NewWizardAction">
+	</section>
+	<section name="ImportExportAction">
+		<item key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID" value="org.eclipse.ui.wizards.export.ZipFile"/>
+		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.eclipse.ui.wizards.import.ExternalProject"/>
+		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+	</section>
+	<section name="ZipFileExportWizard">
+		<item key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID" value="true"/>
+		<item key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID" value="true"/>
+		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="D:\20240306_1\java_exam_ 구은재\java_exam_ 구은재.zip"/>
+			<item value="D:\20240306_1\file_0315\file_0315.zip"/>
+			<item value="D:\20240306_1\file_3_14\file_3_14.zip"/>
+			<item value="D:\20240306_1\java_exam_guej\java_exam_guej.zip"/>
+			<item value="D:\20240306_1\sample.zip"/>
+			<item value="D:\20240306_1\2024.03.13"/>
+			<item value="D:\20240306_1\my\my.zip"/>
+			<item value="D:\20240306_1\test_thu.zip"/>
+			<item value="D:\20240306_1\test_tus.zip"/>
+		</list>
+	</section>
+	<section name="ZipFileImportWizard">
+	</section>
+</section>

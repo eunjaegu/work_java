@@ -1,0 +1,30 @@
+한글 2바이트 예) 20바이트=>10글자
+오라클 3바이트 2바이트
+
+기본크기 
+1. varchar(4) 가변성 캐릭터, 한글자만 들어가면 공간도 줄어듬.
+단 그 크기를 넘을 수는 없음.
+
+2. char(4) 한글자만 들어가도 4바이트 예)주민번호 (값 길이가 정해져있음.)
+
+create table employee (
+seq_no int(4) auto_increment,			//	auto_increment : mySQL 문법, 1씩 자동으로 증가, 정수타입, insert 시 해당필드값 넣으면 안됨.
+												//	autoincrement	:			 oracle
+empNo int(2) not null, 					// 필수 입력란은 not null 반드시
+empName varchar(20) not null, 		
+job varchar(20), 
+mgr char(2), 
+hireDate char(10) not null, 
+sale int(4) not null, 
+commission int(4), 
+deptNo int(2), 
+primary key(seq_no, empNo)			//primary, seq_no : 중복값을 허용하지 않음. 유일한 값만
+);												예) 사원번호
+
+레코드는 순서가 없어 필드값 번호란을 만듬.
+이미지파일은 db에 저장할수 있으나 안할뿐. ~/ 문자열로 저장
+
+
+Oracle => commit;	// 커밋해줘야 완전 저장됨. 커밋안하면 pc끄면 데이터 날아감~
+				rollback	// 원래대로 돌려주는 기능
+				

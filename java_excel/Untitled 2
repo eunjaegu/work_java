@@ -1,0 +1,48 @@
+	java에서 excel 다루기
+	1. 외부 라이브러리가 필요!!! <=== jxl.jar
+	2. 외부 라이브러리 참조
+		=> Build Path를 이용...
+		
+	엑셀파일 쓰기
+	1. File 객체 생성
+		File f = new File("파일의 경로 및 파일명.xls");
+		
+	2. 사용할 엑셀 파일 생성
+	(쓰기용도)	WritableWorkbook wb = Workbook.crateWorkbook(File 객체);
+	
+	3. 생성된 엑셀파일에 시트를 생성
+		WritableSheet s1 =  WritableWorkbook.createSheet("시트명","index");
+			
+	4. 생성된 시트에 라벨 생성
+		Label label = new Label(열번호	, 행번호, "내용");
+		
+	5. 생성된 시트에 라벨을 이용하여 셀 추가
+		s1.addCell(label);
+	----------------------------------------------------------------------
+	엑셀파일 읽기
+	1. File 객체 생성
+		File f = new File("파일의 경로 및 파일명.xls");
+	
+	2. 생성된 엑셀 읽기
+		Workbook w = Workbook.getWorkbook(File 객체);
+	
+	3. 시트 선택
+		Sheet s = w.getSheet(시트 index);
+		
+	4. 셀 선택
+		Cell c = s.getCell(열번호,행번호)
+		
+	5. 셀 내용 읽기
+		String s = c.getContents();
+	=========================================
+	*읽어내는 클래스 따로 만들어내는 클래스 따로 파일 생성하기
+	
+				
+		
+		
+		
+		
+	
+	
+	
+	

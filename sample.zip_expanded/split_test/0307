@@ -1,0 +1,78 @@
+ 목표 : MVC 만들기
+ 1. 메일클래스 : Controller
+ 2. 일반클래스 : MemberClass / 생성자포함  		데이터 다루기(Model)
+ 				   	 DataClass / 생성자포함  			DB
+ 				   	 
+ 				   	 PrintClass / 생성자포함 		 		View (JSP, HTML)
+ 				   	 MethodClass /  생성자포함			연산전용
+ 
+ 				   	 
+ 1. 접근 제한자 :  클래스선언부/메서드선언부/변수선언부 사용 가능
+ default
+ private ==> 클래스 내에서만
+ 바꾸다(수정) setter, 꺼내다 getter로 public을 만들어줌.
+  private setter, getter는 메서드 만들지 말고 자동완성하기 마우스 오른쪽버튼
+ public  ==>				   	 
+ protected 				   	 
+ 				   	 - 오류해석 및 기술용어집 만들기
+ 				   	 - 단위별로 테스트 연습
+ 				   	 
+ split 문자열 분리			
+ 
+ 오류의미
+ Exception in thread "main" java.lang.NumberFormatException: For input string: "30대후반"	
+ 
+ 		/*
+		 * ArrayList의 주 목적은 객체를 저장하기 위함!!
+		 * 따라서 ArrayList의 대부분의 메서드는
+		 * 매개변수의 데이터형이 Object로 설정되어 있다!
+		 * 
+		 * ArrayList의 장점
+		 * 추가삭제되는 데이터의 갯수에 따라
+		 * 전체크기가 변화된다,,,
+		 * 즉 유동적으로 데이터를 보관(저장)할 수 있다...
+		 * 
+		 * 어떤 일을 순차적으로 작업할 경우에
+		 * 뛰어난 효과를 발휘한다!!!
+		 */
+		 
+		 		//ArrayList 데이터 추가 : add()
+		aList.add("name");
+		aList.add("10");
+		aList.add("13.5");
+		aList.add("true");
+		aList.add('A');
+
+		//ArrayList 데이터 추출 : get(index)
+		System.out.println(aList.get(0));
+		System.out.println(aList.get(1));
+		System.out.println(aList.get(2));
+		System.out.println(aList.get(3));
+//		System.out.println(aList.get(4));
+		
+		
+		//ArrayList 데이터 추출 : remove(index)
+		aList.remove(0);
+		System.out.println(aList.get(0));
+		System.out.println(aList.get(1));
+		System.out.println(aList.get(2));
+		System.out.println(aList.get(3));
+		System.out.println(aList.get(4));
+
+		//ArrayList 데이터 추출 : size() : 갯수 파악
+		System.out.println(aList.size());;
+		
+		
+		
+				ArrayList<Integer> aList = new ArrayList<Integer>();
+		aList.add(10);
+//		aList.add(true);  // 예약타입을 정수형으로 선언했기 때문에.. 오류!!!
+
+		
+																		//예약타입 : 객체저장
+		ArrayList<MemberClass> aList2 = new ArrayList<MemberClass>();
+		aList2.
+		
+		
+
+		

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;jdbc_db_codes_connect_meta_four_query.zip_expanded&apos;" deleteContents="false" description="Delete resource &apos;jdbc_db_codes_connect_meta_four_query.zip_expanded&apos;" element1="/jdbc_db_codes_connect_meta_four_query.zip_expanded" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1712043963595"/>
+</session>
